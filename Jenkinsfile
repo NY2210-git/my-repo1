@@ -2,7 +2,7 @@ pipline {
     
 	   agent {
 	           
-			    label "built-in"
+			    label 'built-in'
 				
 				}
 				  
@@ -10,9 +10,9 @@ pipline {
 
                     stage ('apache-1') {   				 
 
-                    steps {
+                            steps {
                     
-                           sh "yum install httpd-y"
+                           sh "yum install httpd -y"
                           }
  
                   }
